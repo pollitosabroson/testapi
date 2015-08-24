@@ -1,0 +1,40 @@
+[
+{
+    "fields": {
+        "first_name": "alejandro",
+        "last_name": "pollo",
+        "is_staff": false,
+        "is_active": true,
+        "birthdate": "1987-07-13",
+        "is_superuser": false,
+        "last_modified": "2015-08-24T11:59:35.297Z",
+        "last_login": null,
+        "groups": [],
+        "created_date": null,
+        "user_permissions": [],
+        "password": "",
+        "email": "karnal02@gmail.com"
+    },
+    "model": "api.user",
+    "pk": 1
+},
+{
+    "fields": {
+        "first_name": "prueba",
+        "last_name": "pollo",
+        "is_staff": false,
+        "is_active": false,
+        "birthdate": "1987-07-13",
+        "is_superuser": false,
+        "last_modified": "2015-08-24T11:59:01.101Z",
+        "last_login": null,
+        "groups": [],
+        "created_date": null,
+        "user_permissions": [],
+        "password": "",
+        "email": "karnal@gmail.com"
+    },
+    "model": "api.user",
+    "pk": 2
+}
+]
