@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html xmlns:ng="http://angularjs.org" id="ng-app" data-ng-app="app">
+{% load staticfiles %}
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <base href="/">
+        <title>Mercado-red</title>
+        <link rel="stylesheet" type="text/css" href="{% static 'css/bootstrap.min.css' %}">
+
+        <script type="text/javascript" src="{% static 'js/jquery.min.js' %}"></script>
+        <script type="text/javascript" src="{% static 'js/bootstrap.min.js' %}"></script>
+
+        <script type="text/javascript" src="{% static 'js/angular.min.js' %}"></script>
+        <script type="text/javascript" src="{% static 'js/angular-ui-router.min.js' %}"></script>
+        <script type="text/javascript" src="{% static 'js/angular-resource.min.js' %}"></script>
+        <script type="text/javascript" src="{% static 'js/vo-angular-api.js' %}"></script>
+        <script type="text/javascript" src="{% static 'js/vo-angular-content.js' %}"></script>
+        <script type="text/javascript" src="{% static 'js/app.js' %}"></script>
+        <script type="text/javascript" src="{% static 'js/home/controller.js' %}"></script>
+        <script type="text/javascript" src="{% static 'js/home/states.js' %}"></script>
+        <script type="text/javascript" src="{% static 'js/home/factory.js' %}"></script>
+        <script type="text/javascript" src="{% static 'js/home/directive.js' %}"></script>
+
+    </head>
+    <body>
+        <div class="container">
+            <div ui-view></div>
+        </div>
+    </body>
+</html>
