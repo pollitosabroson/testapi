@@ -12,13 +12,13 @@ class TimeStampedModel(models.Model):
     created_date = models.DateTimeField(
         editable=False,
         blank=True, null=True,
-        auto_now=False, auto_now_add=True,
+        auto_now=False,
         verbose_name=_('created date')
     )
     last_modified = models.DateTimeField(
         editable=False,
         blank=True, null=True,
-        auto_now=True, auto_now_add=True,
+        auto_now=True,
         verbose_name=_('last modified'),
     )
 
